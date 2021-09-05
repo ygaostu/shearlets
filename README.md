@@ -19,3 +19,28 @@ For differnt disparity ranges, we have the below suggestions:
 - [0, 8] pixels -> `nScale = 3` and `kSize = 63`;
 - [8, 16] pixels -> `nScale = 4` and `kSize = 127`;
 - [16, 32] pixels -> `nScale = 5` and `kSize = 255`.
+
+### References
+```
+@article{kutyniok2016shearlab,
+  title={Shearlab 3D: Faithful digital shearlet transforms based on compactly supported shearlets},
+  author={Kutyniok, Gitta and Lim, Wang-Q and Reisenhofer, Rafael},
+  journal={ACM Transactions on Mathematical Software (TOMS)},
+  volume={42},
+  number={1},
+  pages={1--42},
+  year={2016},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{kutyniok2012shearlab,
+  title={Shearlab: A rational design of a digital parabolic scaling algorithm},
+  author={Kutyniok, Gitta and Shahram, Morteza and Zhuang, Xiaosheng},
+  journal={SIAM Journal on Imaging Sciences},
+  volume={5},
+  number={4},
+  pages={1291--1332},
+  year={2012},
+  publisher={SIAM}
+}
+```
