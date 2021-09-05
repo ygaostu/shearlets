@@ -12,5 +12,5 @@ nScale = 5; kSize = 255;
 sys = constructShearlet([kSize, kSize], 1:nScale); 
 dec = sys.dec;
 rec = sys.rec;
-w = sys.w;
+w = sys.w(1,1,:);
 save(sprintf('shearlet_systems/st_%d_%d_%d', kSize, kSize, nScale), 'dec', 'rec', 'w');
