@@ -13,8 +13,8 @@ Matlab scripts for generating tailored shearlet systems for light field reconstr
 }
 ```
 
-The generation of different shearlet systems is controlled by two varialbes, `nScale` and `kSize`.
-The setting of them depends on the disparity range of the input Sparsely-Sampled Light Field (SSLF).
+The generation of different shearlet systems is controlled by two variables - `nScale` and `kSize`.
+The setting of them depends on the disparity range of the input Sparsely-Sampled Light Field (SSLF) to be handled.
 For differnt disparity ranges, we have the below suggestions:
 - [0, 8] pixels -> `nScale = 3` and `kSize = 63`;
 - [8, 16] pixels -> `nScale = 4` and `kSize = 127`;
